@@ -88,7 +88,6 @@ export default class EditEntries extends Component {
         axios.post('http://localhost:5000/entries/update/'+this.props.match.params.id, entry)
         .then(res => console.log(res.data));
 
-        // window.location = '/';
     }
 
     render(){

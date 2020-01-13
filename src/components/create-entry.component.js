@@ -79,7 +79,6 @@ export default class CreateEntries extends Component {
 
         this.props.history.push('/');
 
-        // window.location = '/';
     }
     
     
